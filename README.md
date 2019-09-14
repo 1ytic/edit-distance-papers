@@ -20,6 +20,7 @@ The following table summarizes the work that attempts to solve the mentioned pro
 | Year | Task | Reward level | Algorithms, Models | Affiliation | Authors, Link |
 |:----:|:---:|----------|------------|------|------|
 | 2019 | ASR | Sentence | MWER, RNN-T, LAS | Google | [Sainath, Pang et al](https://arxiv.org/abs/1908.10992)|
+| 2019 | MT  | Token    | Reinforce-NAT, Non-Autoregressive Transformer | China, Tencent | [Shao, Feng et al.](https://arxiv.org/abs/1906.09444)|
 | 2019 | MT, TS, APE | Token    | Levenshtein Transformer, imitation learning | Facebook, New York | [Gu, Wang, Zhao](https://arxiv.org/abs/1905.11006)|
 | 2018 | ASR | Token    | MBR, softmax margin, PAPB, seq2seq | Brno, JHU, MERL | [Baskar et al.](https://arxiv.org/abs/1811.02770)|
 | 2018 | ASR | Token    | Optimal Completion Distillation, no-pretrain | Google Brain | [Sabour, Chan, Norouzi](https://arxiv.org/abs/1810.01398)|
