@@ -18,24 +18,25 @@ The following table summarizes the work that attempts to solve the mentioned pro
 [[2]](https://arxiv.org/pdf/1805.09461.pdf), but this list includes only works that use the edit-distance explicitly or implicitly. Moreover, most of these works formalize the sequence prediction task as an action-taking problem in Reinforcement Learning.
 
 | Year | Task | Reward level | Algorithms, Models | Affiliation | Authors, Link |
-|:----:|:---:|----------|------------|------|------|
+|:----:|:----:|--------------|--------------------|-------------|---------------|
+| 2019 | ASR | Token | ECTC-DOCD | China | [Yi, Wang, Xu](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1212.pdf)|
 | 2019 | ASR | Sentence | MWER, RNN-T, LAS | Google | [Sainath, Pang et al](https://arxiv.org/abs/1908.10992)|
-| 2019 | MT  | Token    | Reinforce-NAT, Non-Autoregressive Transformer | China, Tencent | [Shao, Feng et al.](https://arxiv.org/abs/1906.09444)|
-| 2019 | MT, TS, APE | Token    | Levenshtein Transformer, imitation learning | Facebook, New York | [Gu, Wang, Zhao](https://arxiv.org/abs/1905.11006)|
-| 2018 | ASR | Token    | MBR, softmax margin, PAPB, seq2seq | Brno, JHU, MERL | [Baskar et al.](https://arxiv.org/abs/1811.02770)|
-| 2018 | ASR | Token    | Optimal Completion Distillation, no-pretrain | Google Brain | [Sabour, Chan, Norouzi](https://arxiv.org/abs/1810.01398)|
-| 2018 | ASR | Token    | REINFORCE, seq2seq | Nara, RIKEN | [Tjandra et al.](https://ahcweb01.naist.jp/papers/journal/2019/201906_IEEE_andros-tj_1/201906_IEEE_andros-tj_1.paper.pdf)|
+| 2019 | MT  | Token | Reinforce-NAT, Non-Autoregressive Transformer | China, Tencent | [Shao, Feng et al.](https://arxiv.org/abs/1906.09444)|
+| 2019 | MT, TS, APE | Token | Levenshtein Transformer, imitation learning | Facebook, New York | [Gu, Wang, Zhao](https://arxiv.org/abs/1905.11006)|
+| 2018 | ASR | Token | MBR, softmax margin, PAPB, S2S | Brno, JHU, MERL | [Baskar et al.](https://arxiv.org/abs/1811.02770)|
+| 2018 | ASR | Token | OCD, S2S | Google Brain | [Sabour, Chan, Norouzi](https://arxiv.org/abs/1810.01398)|
+| 2018 | ASR | Token | REINFORCE, S2S | Nara, RIKEN | [Tjandra et al.](https://ahcweb01.naist.jp/papers/journal/2019/201906_IEEE_andros-tj_1/201906_IEEE_andros-tj_1.paper.pdf)|
 | 2018 | TS  | Sentence | Alternating Actor-Critic | Hong Kong, Tencent | [Li, Bing, Lam](https://arxiv.org/abs/1803.11070)|
-| 2018 | ASR | Sentence | REINFORCE, PPO, Reward engineering | Tokyo |[Peng, Shibata, Shinozaki](http://www.apsipa.org/proceedings/2018/pdfs/0001934.pdf)|
+| 2018 | ASR | Sentence | REINFORCE, PPO, Reward shaping | Tokyo |[Peng, Shibata, Shinozaki](http://www.apsipa.org/proceedings/2018/pdfs/0001934.pdf)|
 | 2017 | ASR | Sentence | REINFORCE, Self-critic | Salesforce | [Zhou, Xiong, Socher](https://arxiv.org/abs/1712.07101)|
 | 2017 | ASR | Sentence | MWER, LAS, Sampling, N-best | Google |[Prabhavalkar et al.](https://arxiv.org/abs/1712.01818)|
-| 2017 | ASR | Sentence | Expected Loss, RNA| Google | [Sak et al.](https://pdfs.semanticscholar.org/7703/a2c5468ecbee5b62c048339a03358ed5fe19.pdf)|
+| 2017 | ASR | Sentence | Expected Loss, RNA | Google | [Sak et al.](https://pdfs.semanticscholar.org/7703/a2c5468ecbee5b62c048339a03358ed5fe19.pdf)|
 | 2017 | MT  | Sentence | Actor-Critic, Critic-aware | Hong Kong, New York | [Gu, Cho, Li](https://arxiv.org/abs/1702.02429)|
-| 2016 | ASR | Sentence | Reward Augmented Maximum Likelihood | Google Brain | [Norouzi et al.](https://arxiv.org/abs/1609.00150)|
-| 2016 | MT  | Token    | Actor-Critic | Montreal, McGill | [Bahdanau et al.](https://arxiv.org/abs/1607.07086)|
+| 2016 | ASR | Sentence | Reward Augmented ML | Google Brain | [Norouzi et al.](https://arxiv.org/abs/1609.00150)|
+| 2016 | MT  | Token | Actor-Critic | Montreal, McGill | [Bahdanau et al.](https://arxiv.org/abs/1607.07086)|
 | 2015 | MT  | Sentence | MIXER | Facebook | [Ranzato et al.](https://arxiv.org/abs/1511.06732)|
-| 2015 | ASR | Token    | Task Loss Estimation | Montreal, Wrocław | [Bahdanau et al.](https://arxiv.org/abs/1511.06456)|
-| 2014 | ASR | Sentence | Expected Transcription Loss, RNN-T | DeepMind, Toronto | [Graves, Jaitly](http://proceedings.mlr.press/v32/graves14.pdf)|
+| 2015 | ASR | Token | Task Loss Estimation | Montreal, Wrocław | [Bahdanau et al.](https://arxiv.org/abs/1511.06456)|
+| 2014 | ASR | Sentence | Expected Loss, CTC | DeepMind, Toronto | [Graves, Jaitly](http://proceedings.mlr.press/v32/graves14.pdf)|
 
 
 ## Reference
