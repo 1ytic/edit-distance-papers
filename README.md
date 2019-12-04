@@ -1,6 +1,6 @@
 # Edit-distance as objective function
 
-There are several research fields in which the [edit-distance](https://en.wikipedia.org/wiki/Edit_distance) chosen as the objective function. For example, in Automatic Speech Recognition (ASR) the main metric of the quality of models is the [Word Error Rate](https://en.wikipedia.org/wiki/Word_error_rate) (WER).
+There are several research fields in which the [edit-distance](https://en.wikipedia.org/wiki/Edit_distance) chosen as the objective function. For example, in Automatic Speech Recognition (ASR) the main metric of the quality of models is [Word Error Rate](https://en.wikipedia.org/wiki/Word_error_rate) (WER).
 
 ## Problems
 
@@ -14,11 +14,11 @@ Unfortunately, directly optimize the edit-distance function is difficult. Theref
 
 ## Solutions
 
-The following table summarizes the work that attempts to solve the mentioned problems. There are much broad overview of works, for example 
-[[2]](https://arxiv.org/pdf/1805.09461.pdf), but this list includes only works that use the edit-distance explicitly or implicitly. Moreover, most of these works formalize the sequence prediction task as an action-taking problem in Reinforcement Learning.
+The following table summarizes the works that attempts to solve the mentioned problems. There are much more detailed overview of works, for example [[2]](https://arxiv.org/pdf/1805.09461.pdf), but this list includes only works that use the edit-distance explicitly or implicitly. Moreover, most of these works formalize the sequence prediction task as an action-taking problem in Reinforcement Learning.
 
 | Year | Task | Reward level | Algorithms, Models | Affiliation | Authors, Link |
 |:----:|:----:|--------------|--------------------|-------------|---------------|
+| 2019 | ASR | Token | RNN-T, MBR | Tencent, USA | [Weng et al.](https://arxiv.org/abs/1911.12487)|
 | 2019 | ASR | Token | ECTC-DOCD | China | [Yi, Wang, Xu](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1212.pdf)|
 | 2019 | ASR | Sentence | MWER, RNN-T, LAS | Google | [Sainath, Pang et al](https://arxiv.org/abs/1908.10992)|
 | 2019 | MT  | Token | Reinforce-NAT, Non-Autoregressive Transformer | China, Tencent | [Shao, Feng et al.](https://arxiv.org/abs/1906.09444)|
