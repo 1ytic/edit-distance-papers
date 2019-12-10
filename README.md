@@ -18,6 +18,7 @@ The following table summarizes the works that attempts to solve the mentioned pr
 
 | Year | Task | Reward level | Algorithms, Models | Affiliation | Authors, Link |
 |:----:|:----:|--------------|--------------------|-------------|---------------|
+| 2019 | ASR | Sentence | Normalized MWER | Amazon | [Gandhe, Rastrow](https://arxiv.org/abs/1912.03363)|
 | 2019 | ASR | Token | RNN-T, MBR | Tencent, USA | [Weng et al.](https://arxiv.org/abs/1911.12487)|
 | 2019 | ASR | Token | ECTC-DOCD | China | [Yi, Wang, Xu](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1212.pdf)|
 | 2019 | ASR | Sentence | MWER, RNN-T, LAS | Google | [Sainath, Pang et al](https://arxiv.org/abs/1908.10992)|
