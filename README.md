@@ -18,7 +18,10 @@ The following table summarizes the works that attempts to solve the mentioned pr
 
 | Year | Task | Reward level | Algorithms, Models | Affiliation | Authors, Link |
 |:----:|:----:|--------------|--------------------|-------------|---------------|
+| 2020 | ASR | Sentence | MWER, RNN-T | Amazon | [Guo et al.](https://arxiv.org/abs/2007.13802)|
+| 2020 | MT | Sentence | MGS, parameter search | NYU | [Welleck, Cho](https://arxiv.org/abs/2006.03158)|
 | 2020 | ASR | Sentence | Proper Noun, Phonetic Fuzzing, MWER, RNN-T, LAS | Google | [Peyser, Sainath, Pundak](https://arxiv.org/abs/2005.09756)|
+| 2019 | NLP | Sentence | GPT-2, PPO, Human labeling | OpenAI | [Ziegler, Stiennon et al.](https://arxiv.org/abs/1909.08593)|
 | 2019 | ASR | Sentence | Neural Architecture Search, REINFORCE, CTC | KPMG Nigeria, OAU  | [Baruwa et al.](https://arxiv.org/abs/1912.05946)|
 | 2019 | ASR | Sentence | Normalized MWER | Amazon | [Gandhe, Rastrow](https://arxiv.org/abs/1912.03363)|
 | 2019 | ASR | Token | MBR, RNN-T | Tencent, USA | [Weng et al.](https://arxiv.org/abs/1911.12487)|
